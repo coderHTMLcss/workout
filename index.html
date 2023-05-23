@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Workout</title>
+</head>
+
+<body>
+    <div class="general-bg">
+        <header class="navigation-wrapper container">
+
+            <picture class="company">
+                <source srcset="./img/logo-desctop.svg" media="(min-width:768px)">
+                <img src="./img/logo--mob.svg" alt="company">
+            </picture>
+
+            <button class="navigation-button" type="button" id="menuToggle">
+                <span class="navigation-span"></span>
+            </button>
+
+            <menu class="menu-list" id="menu-list--active">
+                <li class="menu-item">
+                    <a class="menu-link" href="#">EXERCICES</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#">COMMUNITY</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#">PRICING</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#">ABOUT US</a>
+                </li>
+                <a href="#" class="menu-button--login">LOGIN</a>
+            </menu>
+
+        </header>
+
+        <main class="main">
+            <section class="hero-wrapper container">
+
+                <picture class="hero__person">
+                    <source srcset="./img/hero-desctop.png" media="(min-width:1024px)">
+                    <img src="./img/hero-mob.png" alt="woman in gym">
+                </picture>
+                <div class="hero__info">
+                    <h1 class="hero__title">4 WEEK
+                        <span class="hero__title--span">Workout Plan</span>
+                    </h1>
+                    <p class="hero__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget
+                        consequat
+                        tincidunt, lectus ex bibendum libero, eget iaculis quam arcu quis mauris. Donec ex neque,
+                        egestas in
+                        faucibus.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                    </p>
+                    <a href="" class="button button__primary--big">TRY FOR FREE</a>
+                </div>
+                <div class="hero-card">
+                    <h2 class="hero-card__title">
+                        GET INSPIRED
+                    </h2>
+                    <p class="hero-card__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringil. lacus eget consequat
+                        tincidunt, lectus ex.
+                    </p>
+                    <a href="#" class="hero-card__button">
+                        <figure class="hero-card__arrow">
+                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.464871 9.50128C0.169327 9.7915 0.169327 10.262 0.464871 10.5523C0.760415 10.8425 1.23959 10.8425 1.53513 10.5523L0.464871 9.50128ZM10.9492 1C10.9492 0.589573 10.6104 0.256853 10.1924 0.256853L3.38131 0.256853C2.96334 0.256853 2.62452 0.589573 2.62452 1C2.62452 1.41044 2.96334 1.74316 3.38131 1.74316H9.4356V7.68836C9.4356 8.09879 9.77443 8.43151 10.1924 8.43151C10.6104 8.43151 10.9492 8.09879 10.9492 7.68836L10.9492 1ZM1.53513 10.5523L10.7275 1.52549L9.65726 0.474517L0.464871 9.50128L1.53513 10.5523Z"
+                                    fill="#F2F2F2" />
+                            </svg>
+                        </figure>
+                        Explore More
+                    </a>
+                </div>
+                <div class="hero-card">
+                    <h2 class="hero-card__title">
+                        GET INSPIRED
+                    </h2>
+                    <p class="hero-card__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringil. lacus eget consequat
+                        tincidunt, lectus ex.
+                    </p>
+                    <a href="#" class="hero-card__button">
+                        <figure class="hero-card__arrow">
+                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.464871 9.50128C0.169327 9.7915 0.169327 10.262 0.464871 10.5523C0.760415 10.8425 1.23959 10.8425 1.53513 10.5523L0.464871 9.50128ZM10.9492 1C10.9492 0.589573 10.6104 0.256853 10.1924 0.256853L3.38131 0.256853C2.96334 0.256853 2.62452 0.589573 2.62452 1C2.62452 1.41044 2.96334 1.74316 3.38131 1.74316H9.4356V7.68836C9.4356 8.09879 9.77443 8.43151 10.1924 8.43151C10.6104 8.43151 10.9492 8.09879 10.9492 7.68836L10.9492 1ZM1.53513 10.5523L10.7275 1.52549L9.65726 0.474517L0.464871 9.50128L1.53513 10.5523Z"
+                                    fill="#F2F2F2" />
+                            </svg>
+                        </figure>
+                        Explore More
+                    </a>
+                </div>
+            </section>
+
+            <section class="training-wrapper container">
+                <h2 class="training__title">latest training</h2>
+                <div class="training-box">
+                    <div class="training-blog">
+                        <figure class="training-blog__picture">
+                            <img class="training-blog__img" src="./img/raning1.png" alt="woman runing">
+                        </figure>
+                        <h3 class="training-blog__title">running</h3>
+                        <p class="training-blog__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget
+                            consequat
+                        </p>
+                        <a href="#" class="button button__primary--smaller">SEE MORE</a>
+                    </div>
+
+                    <div class="training-blog">
+                        <figure class="training-blog__picture">
+                            <img class="training-blog__img" src="./img/raning2.png" alt="woman runing">
+                        </figure>
+                        <h3 class="training-blog__title">lifting</h3>
+                        <p class="training-blog__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget
+                            consequat
+                        </p>
+                        <a href="#" class="button button__primary--smaller">SEE MORE</a>
+                    </div>
+
+                    <div class="training-blog">
+                        <figure class="training-blog__picture">
+                            <img class="training-blog__img" src="./img/raning3.png" alt="woman runing">
+                        </figure>
+                        <h3 class="training-blog__title">yoga</h3>
+                        <p class="training-blog__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget
+                            consequat
+                        </p>
+                        <a href="#" class="button button__primary--smaller">SEE MORE</a>
+                    </div>
+                    <a href="#" class="button button__primary--mob">SEE MORE</a>
+                </div>
+            </section>
+
+            <section class="discover container">
+
+                <h2 class="discover__title">DISCOVER YOUR POTENCIAL</h2>
+                <p class="discover__subtitle">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum. text of the printing and typesetting
+                </p>
+                <div class="discover__button">
+                    <a class="button button__primary--biggest" href="#">VIEW PLANS</a>
+                    <a class="button button__primary--black" href="#">LEARN MORE</a>
+
+            </section>
+        </main>
+
+        <footer class="footer container">
+            <div class="footer__top">
+                <picture class="company">
+                    <source srcset="./img/logo-desctop.svg" media="(min-width:768px)">
+                    <img src="./img/logo--mob.svg" alt="company">
+                </picture>
+
+                <ul class="social">
+
+                    <li class="socail__item">
+                        <a class="social__link" href="https://uk-ua.facebook.com/" target="_blank">
+                            <figure class="socail__svg">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path
+                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                                </svg>
+                            </figure>
+                        </a>
+                    </li>
+
+                    <li class="socail__item">
+                        <a class="social__link" href="https://www.instagram.com/" target="_blank">
+                            <figure class="socail__svg">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                </svg>
+                            </figure>
+                        </a>
+                    </li>
+
+                    <li class="socail__item">
+                        <a class="social__link" href="https://twitter.com/" target="_blank">
+                            <figure class="socail__svg">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                                </svg>
+                            </figure>
+                        </a>
+                    </li>
+
+                    <li class="socail__item">
+                        <a class="social__link" href="https://www.whatsapp.com/?lang=uk/" target="_blank">
+                            <figure class="socail__svg">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                                </svg>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="footer__info">
+                    <div class="footer__info--left">
+                        <h3 class="footer__info-title">info</h3>
+                        <ul class="footer__info-list">
+                            <li class="footer__info-item">
+                                <a href="#" class="footer__info-link">About</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="#" class="footer__info-link">Careers</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="#" class="footer__info-link">Press</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a href="#" class="footer__info-link">Product Updates</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__info--rigth">
+                        <h3 class="footer__info-title">get in touch</h3>
+                        <ul class="footer__info-list">
+                            <li class="footer__info-item">
+                                <a class="footer__info-link" href="#">About Us</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a class="footer__info-link" href="#">Support</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <a class="footer__info-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyrigtht">
+                    Copyright <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6 0.6875C9.1875 0.6875 11.8125 3.3125 11.8125 6.5C11.8125 9.71094 9.1875 12.3125 6 12.3125C2.78906 12.3125 0.1875 9.71094 0.1875 6.5C0.1875 3.3125 2.78906 0.6875 6 0.6875ZM6 11.1875C8.57812 11.1875 10.6875 9.10156 10.6875 6.5C10.6875 3.92188 8.57812 1.8125 6 1.8125C3.39844 1.8125 1.3125 3.92188 1.3125 6.5C1.3125 9.10156 3.39844 11.1875 6 11.1875ZM8.50781 8.82031C8.27344 9.05469 7.42969 9.80469 6.07031 9.80469C4.125 9.80469 2.76562 8.35156 2.76562 6.47656C2.76562 4.625 4.19531 3.21875 6.04688 3.21875C7.35938 3.21875 8.13281 3.82812 8.34375 4.03906C8.39062 4.08594 8.4375 4.15625 8.4375 4.22656C8.4375 4.29688 8.41406 4.34375 8.39062 4.39062L7.94531 5.04688C7.875 5.1875 7.66406 5.21094 7.54688 5.11719C7.33594 4.95312 6.79688 4.57812 6.09375 4.57812C4.96875 4.57812 4.26562 5.42188 4.26562 6.47656C4.26562 7.4375 4.89844 8.42188 6.11719 8.42188C6.86719 8.42188 7.42969 7.97656 7.64062 7.78906C7.78125 7.67188 7.96875 7.69531 8.0625 7.83594L8.53125 8.46875C8.55469 8.51562 8.57812 8.5625 8.57812 8.63281C8.57812 8.70312 8.55469 8.77344 8.50781 8.82031Z"
+                            fill="white" />
+                    </svg> 2021 Enisson Lemos | All right reserved
+                </p>
+                <p class="footer__text">
+                    Terms & Conditions
+                </p>
+            </div>
+
+        </footer>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

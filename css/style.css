@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url('./layout/globals.css');
+@import url('./section/navigation-wrapper.css');
+@import url('./section/hero-wrapper.css');
+@import url('./section/training-wrapper.css');
+@import url('./section/discover.css');
+
+@import url('./layout/footer.css');
+
